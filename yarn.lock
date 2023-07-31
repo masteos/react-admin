@@ -18460,9 +18460,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"ra-ui-materialui@^4.12.3, ra-ui-materialui@workspace:packages/ra-ui-materialui":
+"ra-ui-materialui-masteos@workspace:packages/ra-ui-materialui":
   version: 0.0.0-use.local
-  resolution: "ra-ui-materialui@workspace:packages/ra-ui-materialui"
+  resolution: "ra-ui-materialui-masteos@workspace:packages/ra-ui-materialui"
   dependencies:
     "@mui/icons-material": ^5.0.1
     "@mui/material": ^5.0.2
@@ -18509,6 +18509,37 @@ __metadata:
     react-router-dom: ^6.1.0
   languageName: unknown
   linkType: soft
+
+"ra-ui-materialui@npm:^4.12.3":
+  version: 4.12.3
+  resolution: "ra-ui-materialui@npm:4.12.3"
+  dependencies:
+    autosuggest-highlight: ^3.1.1
+    clsx: ^1.1.1
+    css-mediaquery: ^0.1.2
+    dompurify: ^2.4.3
+    hotscript: ^1.0.12
+    inflection: ~1.12.0
+    jsonexport: ^3.2.0
+    lodash: ~4.17.5
+    prop-types: ^15.7.0
+    query-string: ^7.1.1
+    react-dropzone: ^12.0.4
+    react-error-boundary: ^3.1.4
+    react-query: ^3.32.1
+    react-transition-group: ^4.4.1
+  peerDependencies:
+    "@mui/icons-material": ^5.0.1
+    "@mui/material": ^5.0.2
+    ra-core: ^4.0.0
+    react: ^16.9.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
+    react-hook-form: "*"
+    react-router: ^6.1.0
+    react-router-dom: ^6.1.0
+  checksum: 4eac2e6c930a7e0a1c1954fefe1486f3f962e90713d8d789039aaf9e1a235168f3e148f86d64e2c0cfd91b3f73948a05a07c61428239ab307f39ec7e4c9156ac
+  languageName: node
+  linkType: hard
 
 "raf-schd@npm:^4.0.3":
   version: 4.0.3
@@ -18622,9 +18653,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"react-admin-lerna@workspace:.":
+"react-admin-lerna-masteos@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-admin-lerna@workspace:."
+  resolution: "react-admin-lerna-masteos@workspace:."
   dependencies:
     "@storybook/addon-actions": ^7.0.12
     "@storybook/addon-controls": ^7.0.12

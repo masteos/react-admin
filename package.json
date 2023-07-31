@@ -1,5 +1,4 @@
 {
-    "private": false,
     "name": "react-admin-lerna-masteos",
     "scripts": {
         "build": "lerna run build",
