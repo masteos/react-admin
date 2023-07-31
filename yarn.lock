@@ -2865,7 +2865,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@masteos/ra-ui-materialui@workspace:packages/ra-ui-materialui":
+"@masteos/ra-ui-materialui@workspace:packages/ra-ui-materialui, ra-ui-materialui@npm:@masteos/ra-ui-materialui@^4.12.4":
   version: 0.0.0-use.local
   resolution: "@masteos/ra-ui-materialui@workspace:packages/ra-ui-materialui"
   dependencies:
@@ -2929,7 +2929,7 @@ __metadata:
     ra-core: ^4.12.2
     ra-i18n-polyglot: ^4.12.2
     ra-language-english: ^4.12.2
-    ra-ui-materialui: ^4.12.3
+    ra-ui-materialui: "npm:@masteos/ra-ui-materialui@^4.12.4"
     react-hook-form: ^7.43.9
     react-router: ^6.1.0
     react-router-dom: ^6.1.0

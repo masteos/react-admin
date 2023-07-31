@@ -44,7 +44,7 @@
         "ra-core": "^4.12.2",
         "ra-i18n-polyglot": "^4.12.2",
         "ra-language-english": "^4.12.2",
-        "ra-ui-materialui": "npm:@masteos-ra-ui-materialui@^4.3.3",
+        "ra-ui-materialui": "npm:@masteos/ra-ui-materialui@^4.12.5",
         "react-hook-form": "^7.43.9",
         "react-router": "^6.1.0",
         "react-router-dom": "^6.1.0"
