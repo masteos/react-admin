@@ -1,6 +1,6 @@
 {
     "name": "masteos-react-admin",
-    "version": "4.12.31",
+    "version": "4.12.32",
     "description": "A frontend Framework for building admin applications on top of REST services, using ES6, React and Material UI",
     "files": [
         "*.md",

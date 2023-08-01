@@ -15584,6 +15584,82 @@ __metadata:
   languageName: node
   linkType: hard
 
+"masteos-ra-ui-materialui@workspace:packages/ra-ui-materialui, ra-ui-materialui@npm:masteos-ra-ui-materialui@^4.12.31":
+  version: 0.0.0-use.local
+  resolution: "masteos-ra-ui-materialui@workspace:packages/ra-ui-materialui"
+  dependencies:
+    "@mui/icons-material": ^5.0.1
+    "@mui/material": ^5.0.2
+    "@testing-library/react": ^11.2.3
+    "@types/dompurify": ^3.0.2
+    autosuggest-highlight: ^3.1.1
+    clsx: ^1.1.1
+    cross-env: ^5.2.0
+    css-mediaquery: ^0.1.2
+    dompurify: ^2.4.3
+    expect: ^27.4.6
+    file-api: ~0.10.4
+    history: ^5.1.0
+    hotscript: ^1.0.12
+    ignore-styles: ~5.0.1
+    inflection: ~1.12.0
+    jsonexport: ^3.2.0
+    lodash: ~4.17.5
+    prop-types: ^15.7.0
+    query-string: ^7.1.1
+    ra-core: ^4.12.2
+    ra-i18n-polyglot: ^4.12.2
+    ra-language-english: ^4.12.2
+    react: ^17.0.0
+    react-dom: ^17.0.0
+    react-dropzone: ^12.0.4
+    react-error-boundary: ^3.1.4
+    react-hook-form: ^7.43.9
+    react-query: ^3.32.1
+    react-router: ^6.1.0
+    react-router-dom: ^6.1.0
+    react-test-renderer: ~16.8.6
+    react-transition-group: ^4.4.1
+    rimraf: ^3.0.2
+    typescript: ^5.1.3
+  peerDependencies:
+    "@mui/icons-material": ^5.0.1
+    "@mui/material": ^5.0.2
+    ra-core: ^4.0.0
+    react: ^16.9.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
+    react-hook-form: "*"
+    react-router: ^6.1.0
+    react-router-dom: ^6.1.0
+  languageName: unknown
+  linkType: soft
+
+"masteos-react-admin@workspace:packages/react-admin":
+  version: 0.0.0-use.local
+  resolution: "masteos-react-admin@workspace:packages/react-admin"
+  dependencies:
+    "@emotion/react": ^11.4.1
+    "@emotion/styled": ^11.3.0
+    "@mui/icons-material": ^5.0.1
+    "@mui/material": ^5.0.2
+    cross-env: ^5.2.0
+    expect: ^27.4.6
+    history: ^5.1.0
+    ra-core: ^4.12.2
+    ra-i18n-polyglot: ^4.12.2
+    ra-language-english: ^4.12.2
+    ra-ui-materialui: "npm:masteos-ra-ui-materialui@^4.12.31"
+    react-hook-form: ^7.43.9
+    react-router: ^6.1.0
+    react-router-dom: ^6.1.0
+    rimraf: ^3.0.2
+    typescript: ^5.1.3
+  peerDependencies:
+    react: ^16.9.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
+  languageName: unknown
+  linkType: soft
+
 "match-sorter@npm:^6.0.2":
   version: 6.3.1
   resolution: "match-sorter@npm:6.3.1"
@@ -18370,7 +18446,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"ra-input-rich-text@^4.12.0, ra-input-rich-text@^4.12.2, ra-input-rich-text@workspace:packages/ra-input-rich-text":
+"ra-input-rich-text@^4.12.0, ra-input-rich-text@^4.12.3, ra-input-rich-text@workspace:packages/ra-input-rich-text":
   version: 0.0.0-use.local
   resolution: "ra-input-rich-text@workspace:packages/ra-input-rich-text"
   dependencies:
@@ -18393,7 +18469,7 @@ __metadata:
     data-generator-retail: ^4.12.2
     ra-core: ^4.12.2
     ra-data-fakerest: ^4.12.2
-    ra-ui-materialui: ^4.12.2
+    ra-ui-materialui: ^4.12.3
     react: ^17.0.0
     react-dom: ^17.0.0
     react-hook-form: ^7.43.9
@@ -18446,7 +18522,7 @@ __metadata:
     prop-types: ^15.6.1
     ra-data-local-storage: ^4.12.2
     react: ^17.0.0
-    react-admin: ^4.12.2
+    react-admin: ^4.12.3
     react-dom: ^17.0.0
     react-dropzone: ^12.0.4
     react-query: ^3.32.1
@@ -18460,44 +18536,24 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"ra-ui-materialui@^4.12.2, ra-ui-materialui@workspace:packages/ra-ui-materialui":
-  version: 0.0.0-use.local
-  resolution: "ra-ui-materialui@workspace:packages/ra-ui-materialui"
+"ra-ui-materialui@npm:^4.12.3":
+  version: 4.12.3
+  resolution: "ra-ui-materialui@npm:4.12.3"
   dependencies:
-    "@mui/icons-material": ^5.0.1
-    "@mui/material": ^5.0.2
-    "@testing-library/react": ^11.2.3
-    "@types/dompurify": ^3.0.2
     autosuggest-highlight: ^3.1.1
     clsx: ^1.1.1
-    cross-env: ^5.2.0
     css-mediaquery: ^0.1.2
     dompurify: ^2.4.3
-    expect: ^27.4.6
-    file-api: ~0.10.4
-    history: ^5.1.0
     hotscript: ^1.0.12
-    ignore-styles: ~5.0.1
     inflection: ~1.12.0
     jsonexport: ^3.2.0
     lodash: ~4.17.5
     prop-types: ^15.7.0
     query-string: ^7.1.1
-    ra-core: ^4.12.2
-    ra-i18n-polyglot: ^4.12.2
-    ra-language-english: ^4.12.2
-    react: ^17.0.0
-    react-dom: ^17.0.0
     react-dropzone: ^12.0.4
     react-error-boundary: ^3.1.4
-    react-hook-form: ^7.43.9
     react-query: ^3.32.1
-    react-router: ^6.1.0
-    react-router-dom: ^6.1.0
-    react-test-renderer: ~16.8.6
     react-transition-group: ^4.4.1
-    rimraf: ^3.0.2
-    typescript: ^5.1.3
   peerDependencies:
     "@mui/icons-material": ^5.0.1
     "@mui/material": ^5.0.2
@@ -18507,8 +18563,9 @@ __metadata:
     react-hook-form: "*"
     react-router: ^6.1.0
     react-router-dom: ^6.1.0
-  languageName: unknown
-  linkType: soft
+  checksum: 4eac2e6c930a7e0a1c1954fefe1486f3f962e90713d8d789039aaf9e1a235168f3e148f86d64e2c0cfd91b3f73948a05a07c61428239ab307f39ec7e4c9156ac
+  languageName: node
+  linkType: hard
 
 "raf-schd@npm:^4.0.3":
   version: 4.0.3
@@ -18672,31 +18729,28 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"react-admin@^4.12.0, react-admin@^4.12.2, react-admin@workspace:packages/react-admin":
-  version: 0.0.0-use.local
-  resolution: "react-admin@workspace:packages/react-admin"
+"react-admin@npm:^4.12.0, react-admin@npm:^4.12.3":
+  version: 4.12.3
+  resolution: "react-admin@npm:4.12.3"
   dependencies:
     "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
     "@mui/icons-material": ^5.0.1
     "@mui/material": ^5.0.2
-    cross-env: ^5.2.0
-    expect: ^27.4.6
     history: ^5.1.0
     ra-core: ^4.12.2
     ra-i18n-polyglot: ^4.12.2
     ra-language-english: ^4.12.2
-    ra-ui-materialui: ^4.12.2
+    ra-ui-materialui: ^4.12.3
     react-hook-form: ^7.43.9
     react-router: ^6.1.0
     react-router-dom: ^6.1.0
-    rimraf: ^3.0.2
-    typescript: ^5.1.3
   peerDependencies:
     react: ^16.9.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
-  languageName: unknown
-  linkType: soft
+  checksum: 6f6cd67f899b318afd31b88c2e79a282f0dca4cbd86af3864fece5b58665cf02be5a3f8675f0bd5b17dc6b79011e683f9833809e6599d1e7bfc811f7f8574290
+  languageName: node
+  linkType: hard
 
 "react-app-polyfill@npm:^1.0.4":
   version: 1.0.6
@@ -20296,11 +20350,11 @@ __metadata:
     proxy-polyfill: ^0.3.0
     ra-data-fakerest: ^4.12.2
     ra-i18n-polyglot: ^4.12.2
-    ra-input-rich-text: ^4.12.2
+    ra-input-rich-text: ^4.12.3
     ra-language-english: ^4.12.2
     ra-language-french: ^4.12.2
     react: ^17.0.0
-    react-admin: ^4.12.2
+    react-admin: ^4.12.3
     react-app-polyfill: ^1.0.4
     react-dom: ^17.0.0
     react-hook-form: ^7.43.9
