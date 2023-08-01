@@ -16,7 +16,10 @@ export const InputHelperText = (props: InputHelperTextProps) => {
             return <ValidationError error={error} />;
         }
 
-        return <>{translate(error)}</>;
+        if (typeof error === 'string') {
+            return <>{translate(error)}</>;
+        }
+        return <>{error}</>;
     }
 
     if (helperText === false) {
