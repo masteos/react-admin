@@ -2865,32 +2865,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@masteos/react-admin@workspace:packages/react-admin":
-  version: 0.0.0-use.local
-  resolution: "@masteos/react-admin@workspace:packages/react-admin"
-  dependencies:
-    "@emotion/react": ^11.4.1
-    "@emotion/styled": ^11.3.0
-    "@mui/icons-material": ^5.0.1
-    "@mui/material": ^5.0.2
-    cross-env: ^5.2.0
-    expect: ^27.4.6
-    history: ^5.1.0
-    ra-core: ^4.12.2
-    ra-i18n-polyglot: ^4.12.2
-    ra-language-english: ^4.12.2
-    ra-ui-materialui: ^4.12.2
-    react-hook-form: ^7.43.9
-    react-router: ^6.1.0
-    react-router-dom: ^6.1.0
-    rimraf: ^3.0.2
-    typescript: ^5.1.3
-  peerDependencies:
-    react: ^16.9.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
-  languageName: unknown
-  linkType: soft
-
 "@mdx-js/react@npm:^2.1.5":
   version: 2.3.0
   resolution: "@mdx-js/react@npm:2.3.0"
@@ -15610,7 +15584,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"masteos-ra-ui-materialui@workspace:packages/ra-ui-materialui":
+"masteos-ra-ui-materialui@workspace:packages/ra-ui-materialui, ra-ui-materialui@npm:masteos-ra-ui-materialui@^4.12.4":
   version: 0.0.0-use.local
   resolution: "masteos-ra-ui-materialui@workspace:packages/ra-ui-materialui"
   dependencies:
@@ -15657,6 +15631,32 @@ __metadata:
     react-hook-form: "*"
     react-router: ^6.1.0
     react-router-dom: ^6.1.0
+  languageName: unknown
+  linkType: soft
+
+"masteos-react-admin@workspace:packages/react-admin":
+  version: 0.0.0-use.local
+  resolution: "masteos-react-admin@workspace:packages/react-admin"
+  dependencies:
+    "@emotion/react": ^11.4.1
+    "@emotion/styled": ^11.3.0
+    "@mui/icons-material": ^5.0.1
+    "@mui/material": ^5.0.2
+    cross-env: ^5.2.0
+    expect: ^27.4.6
+    history: ^5.1.0
+    ra-core: ^4.12.2
+    ra-i18n-polyglot: ^4.12.2
+    ra-language-english: ^4.12.2
+    ra-ui-materialui: "npm:masteos-ra-ui-materialui@^4.12.4"
+    react-hook-form: ^7.43.9
+    react-router: ^6.1.0
+    react-router-dom: ^6.1.0
+    rimraf: ^3.0.2
+    typescript: ^5.1.3
+  peerDependencies:
+    react: ^16.9.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
   languageName: unknown
   linkType: soft
 
@@ -18536,7 +18536,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"ra-ui-materialui@npm:^4.12.2, ra-ui-materialui@npm:^4.12.3":
+"ra-ui-materialui@npm:^4.12.3":
   version: 4.12.3
   resolution: "ra-ui-materialui@npm:4.12.3"
   dependencies:

@@ -48,13 +48,16 @@ export const NullableBooleanInput = (props: NullableBooleanInputProps) => {
         validate,
         ...rest,
     });
+
+    const { ref: fieldRef, ...fieldRest } = field;
+
     const renderHelperText =
         helperText !== false || ((isTouched || isSubmitted) && invalid);
     return (
         <StyledTextField
             id={id}
             size="small"
-            {...field}
+            {...fieldRest}
             className={clsx(
                 'ra-input',
                 `ra-input-${source}`,
@@ -83,6 +86,7 @@ export const NullableBooleanInput = (props: NullableBooleanInputProps) => {
             }
             variant={variant}
             {...sanitizeInputRestProps(rest)}
+            inputRef={fieldRef}
         >
             <MenuItem value="">{translate(nullLabel)}</MenuItem>
             <MenuItem value="false">{translate(falseLabel)}</MenuItem>
